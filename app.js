@@ -1,8 +1,6 @@
-// Get the button element by its id
-var button = document.getElementById("myButton");
+function buttonClick() {
+    var click =  ("Hello User")
+    console.log(click);
+    alert(click);
+};
 
-// Add a click event listener to the button
-button.addEventListener("click", function() {
-    // Function to execute when the button is clicked
-    console.log("Button clicked!");
-});
